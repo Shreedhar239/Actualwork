@@ -274,7 +274,7 @@ for f=1:br
         QL(1,1) = QL(1,1) + Ql(f,1);
     end
 end
-
+PL
 % Convert losses to kW and kVAR
 Plosskw = (Pl)*100000;
 Qlosskw = (Ql)*100000;
